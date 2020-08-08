@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('./partials/part-head.html')
+
+<body>
+@@include('./partials/part-header.html')
+<main class="blog_post">
+    <section class="welcome_blog">
+        <div class="container">
+            <h1>Blog</h1>
+            <p>Most interesting and popular articles</p>
+
+        </div>
+    </section>
+
+    <section class="detailed_blog_post">
+        <div class="container">
+            <div class="filter_tags">
+                <div class="filter_tags_header">
+                    <span>AUG 10, 2018</span>
+                    <p>Name of Category</p>
+
+                </div>
+                <div class="filter_tags_items">
+                    <a href="">Latest news</a>
+                    <a href="">Legal</a>
+                    <a href="">Latest news</a>
+                </div>
+            </div>
+            <div class="text_container header_text_container ">
+                <h2>Title of the article</h2>
+                <p><b>We carry exclusive brands within each segment
+                    and focus on providing distributors around the globe
+                    with handpicked brands and competative prices without
+                    compromising on quality, ingridients and without harm to the enviroment!
+                </b></p>
+                <p>We strive to pick exclusive brands that provide
+                    great benefit for target users without harmful impact to their health
+                    and enviroment. All of our brands are highly beneficial for health and well being without side effects.
+                </p>
+            </div>
+            <div class="img_container">
+                <img src="images/detailed_blog_post.png" alt="">
+            </div>
+            <div class="text_container">
+                <p>We strive to pick exclusive brands that provide
+                    great benefit for target users without harmful impact to their health
+                    and enviroment. All of our brands are highly beneficial for health and well being without side effects.
+                </p>
+
+            </div>
+            <div class="wrapper_response">
+                <div class="wrapper_response_item">
+                    <div class="header_wrapper_response">
+                        <div class="header_wrapper_response_img">
+                            <img src="images/detailed_blog_post.png" alt="">
+                        </div>
+                        <div class="user_name">
+                            <h5>John Doe</h5>
+                            <a href="">@realJohnDoe</a>
+                        </div>
+                        <a href="" class="share_tweet"></a>
+                    </div>
+                    <div class="content_wrapper_response">
+                        <p>We strive to pick exclusive brands that provide great benefit for target users without harmful impact to their health and enviro</p>
+                    </div>
+                    <div class="footer_wrapper_response">
+                        <p>8:00 AM - 14 Aug 2018</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text_container">
+                <p>We strive to pick exclusive brands that provide
+                    great benefit for target users without harmful impact to their health
+                    and enviroment. All of our brands are highly beneficial for health and well being without side effects.
+                </p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit a
+                    nim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. D
+                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.
+                </p>
+
+
+            </div>
+            <div class="share_wrapper">
+                <p>Share:</p>
+                <ul class="social">
+                    <li><a href="" class="fb"></a></li>
+                    <li><a href="" class="gl"></a></li>
+                    <li><a href="" class="tw"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="managers_button">
+        <div class="container">
+            <div class="managers_page">
+                <a href="" class="little_button">Prev buzz</a>
+                <a href="" class="little_button">Next buzz</a>
+            </div>
+        </div>
+
+    </section>
+    @@include('./partials/part-subscribe_now.html')
+    <section class="blog_posts">
+        <div class="container">
+            <h2 class="title_section">We <span>Recommend</span></h2>
+            @@include('./partials/part-blog-posts-list.html')
+            <a href="" class="little_button">MORE OF THE BUZZ</a>
+        </div>
+    </section>
+    <section class="products">
+        <div class="container">
+            <h2 class="title_section">Featured  <span>products</span></h2>
+            @@include('./partials/part_products.html')
+        </div>
+    </section>
+</main>
+
+@@include('./partials/part-footer.html')
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('./partials/part-head.html')
+
+<body>
+@@include('./partials/part-header.html')
+<main class="blog">
+    <section class="welcome_blog">
+        <div class="container">
+            <h1>Blog</h1>
+            <p>Most interesting and popular articles</p>
+
+        </div>
+    </section>
+    <section class="search_filter">
+        <div class="container">
+            <h2 class="title_section">Search filter</h2>
+            <form class="filter_form">
+                <div class="filter_item">
+                    <input type="text" placeholder="Search">
+                </div>
+
+                <div class="filter_item">
+                    <select>
+                        <option>Most viewd</option>
+                        <option>Most viewd</option>
+                        <option>Most viewd</option>
+                        <option>Most viewd</option>
+                    </select>
+                </div>
+                <div class="filter_item">
+                    <select>
+                        <option>by date</option>
+                        <option>by date</option>
+                        <option>by date</option>
+                        <option>by date</option>
+                    </select>
+                </div>
+                <div class="filter_item">
+                    <input type="submit" value="Apply" class="little_button_yellow">
+                </div>
+            </form>
+            <div class="filter_tags">
+                <p>Popular tags</p>
+                <div class="filter_tags_items">
+                    <a href="">Latest news</a>
+                    <a href="">Legal</a>
+                    <a href="">Latest news</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="blog_posts">
+        <div class="container">
+            <h2 class="title_section">Blog<span>posts</span></h2>
+            @@include('./partials/part-blog-posts-list.html')
+            <div class="managers_page">
+                <a href="" class="little_button">Prevt page</a>
+                <a href="" class="little_button">Next page</a>
+            </div>
+        </div>
+    </section>
+    @@include('./partials/part-our-products.html')
+    @@include('./partials/part-subscribe_now.html')
+</main>
+
+@@include('./partials/part-footer.html')
+</body>
+</html>

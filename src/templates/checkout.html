@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('./partials/part-head.html')
+
+<body>
+@@include('./partials/part-header.html')
+<main class="checkout_main">
+    <div class="welcome_product"></div>
+    <section class="checkout">
+        <div class="container">
+            @@include('./partials/part-bread_crumbs.html')
+            <div class="checkout_content ">
+                <div class="checkout_list  ">
+                    <div class="checkout_list_item_title">
+                        <p><span>01</span>Review your quote</p>
+                        <span class="edit">edit</span>
+                    </div>
+                    <div class="checkout_list_item">
+                        <div class="checkout_list_item_img">
+                            <img src="images/product_2.png" alt="" alt="">
+                        </div>
+                        <div class="name_product">
+                            <h3>Organic CBD Isolate</h3>
+                            <p>Free Shipping</p>
+                        </div>
+                        <div class="price_block">
+                            <div class="number">
+                                <span class="down">	◄</span>
+                                <input class="text" value="0">
+                                <span class="up">►</span>
+                            </div>
+                            <b class="price">$16.00</b>
+                        </div>
+                    </div>
+                    <div class="checkout_list_item">
+                        <div class="checkout_list_item_img">
+                            <img src="images/product_2.png" alt="" alt="">
+                        </div>
+                        <div class="name_product">
+                            <h3>Organic CBD Isolate</h3>
+                            <p>Free Shipping</p>
+                        </div>
+                        <div class="price_block">
+                            <div class="number">
+                                <span class="down">	◄</span>
+                                <input class="text" value="0">
+                                <span class="up">►</span>
+                            </div>
+                            <b class="price">$16.00</b>
+                        </div>
+                    </div>
+                    <div class="checkout_list_item_title">
+                        <p><span>02</span>Review your quote</p>
+                    </div>
+                    <form  class="user_data">
+                        <div class="row">
+                            <input type="text" placeholder="Your name" name="Your name">
+                            <input type="text" placeholder="Email Address" name="Email Address">
+                        </div>
+                        <div class="title_p">
+                            <p>Delivery information</p>
+                        </div>
+
+                        <div class="row">
+                            <input type="text" placeholder="Address" class="address" name="Address">
+                        </div>
+                        <div class="row">
+                            <input type="text" placeholder="City" name="City">
+                            <input type="text" placeholder="State" name="State">
+                        </div>
+                        <div class="row">
+                            <input type="text" placeholder="ZIP" name="ZIP">
+                            <input type="number" placeholder="Phone" name="Phone">
+                        </div>
+                    </form>
+                </div>
+                <div class="wrapper_aside">
+                    <aside class="confirm ">
+                        <p>Order Total</p>
+                        <h2>$56.00</h2>
+                        <div class="list_products">
+                            <p><span>Products</span><span>$56.00</span></p>
+                            <p><span>Shipping</span><span>$0.00</span></p>
+                        </div>
+                        <input type="submit" class="button_yellow" value="Shop now">
+                    </aside>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+</main>
+
+@@include('./partials/part-footer.html')
+</body>
+</html>

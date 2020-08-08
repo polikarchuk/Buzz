@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('./partials/part-head.html')
+
+<body>
+@@include('./partials/part-header.html')
+<main class="catalog">
+    <section class="welcome_blog">
+        <div class="container">
+            <h1>Shop CBD</h1>
+            <p></p>
+        </div>
+    </section>
+
+    <section class="filter_catalog">
+        <div class="container">
+            <div class="filter_tags">
+                <div class="wrapper_filter">
+                    <p>Popular tags</p>
+                    <div class="filter_tags_items">
+                        <a href="">Latest news</a>
+                        <a href="">Legal</a>
+                        <a href="">Latest news</a>
+                    </div>
+                </div>
+                <form class="filter_form">
+                    <p>Sort by</p>
+                    <select>
+                        <option>Recommended</option>
+                        <option>Recommended</option>
+                        <option>Recommended</option>
+                        <option>Recommended</option>
+                    </select>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <section class="products">
+        <div class="container">
+            @@include('./partials/part-bread_crumbs.html')
+            <h2 class="title_section">our <span> products</span></h2>
+            <div class="wrapper_product_filter">
+                <div class="product_filter">
+                    <div class="product_filter_header">
+                        <h4>Product filter</h4>
+                    </div>
+                    <div class="product_filter_list">
+                        <div class="product_filter_item">
+                            <p>Featured products</p>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="checkbox">
+                                    <label for="checkbox">Featured</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product_filter_item">
+                            <p>Type</p>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="checkbox_1">
+                                    <label for="checkbox_1">Edible</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="checkbox_2">
+                                    <label for="checkbox_2">Topical</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="checkbox_3">
+                                    <label for="checkbox_3">Tincture</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="checkbox_4">
+                                    <label for="checkbox_4">Featured</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="checkbox_5">
+                                    <label for="checkbox_5">Accessory</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="checkbox_6">
+                                    <label for="checkbox_6">etc</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product_filter_item">
+                            <p>Aliment</p>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="checkbox_7">
+                                    <label for="checkbox_7">Cancer</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="checkbox_8">
+                                    <label for="checkbox_8">Epilepsy</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="checkbox_9">
+                                    <label for="checkbox_9">etc</label>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="product_filter_item">
+                            <p>Rating</p>
+                            <ul class="rating">
+                                <li>
+                                    <input type="checkbox" id="checkbox_10">
+                                    <label for="checkbox_10">1</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="checkbox_11">
+                                    <label for="checkbox_11">2</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="checkbox_12">
+                                    <label for="checkbox_12">3</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="checkbox_13">
+                                    <label for="checkbox_13">4</label>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            @@include('./partials/part_products.html')
+            <div class="text_center">
+                <a href="" class="little_button">Load more</a>
+            </div>
+
+        </div>
+    </section>
+    @@include('./partials/part-subscribe_now.html')
+
+</main>
+
+@@include('./partials/part-footer.html')
+</body>
+</html>
